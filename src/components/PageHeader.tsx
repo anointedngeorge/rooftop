@@ -1,0 +1,2 @@
+import type { ReactNode } from 'react'
+export function PageHeader({title,description,action}:{title:string;description:string;action?:ReactNode}){return <header className="page-header"><div><p className="breadcrumbs">Dashboard / {title}</p><h1>{title}</h1><p>{description}</p></div>{action}</header>}
